@@ -7,6 +7,10 @@ Add, subtract, multiply and divide two numbers; display the result.
 
 ## How to run it
 Prerequisite: Python3
+Test Dependency: pytest, SCCM4910 venv
+Test activation: source /opt/python-venv/sccm-4910/bin/activate
+		 ./check.sh
+Expected test result: QUALITY GATE PASSED
 Run: ./run.sh
 Enter the first number, operator (+ - * /), then second number.
 The program prints Result: followed by the answer.
